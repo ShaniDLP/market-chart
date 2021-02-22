@@ -42,12 +42,9 @@ button:active{
     background-color: rgb(75, 147, 182);
     color: ivory;
 }
-
-
 .main{
     max-width: 1000px;
     margin: 100px auto;
-    /* padding-top: 200px; */
     background-color: rgb(255, 255, 255);
     opacity: 0.9;
     border-radius: 6px;
