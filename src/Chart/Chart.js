@@ -73,15 +73,14 @@ class Chart extends Component {
   getData(period) {
     axios.get('https://www.fxempire.com/api/v1/en/stocks/chart/candles?Identifier=AAPL.XNAS&IdentifierType=Symbol&AdjustmentMethod=All&IncludeExtended=False&period=' + period + '&Precision=Minutes&StartTime=8/28/2020%2016:0&EndTime=9/4/2020%2023:59&_fields=ChartBars.StartDate,ChartBars.High,ChartBars.Low,ChartBars.StartTime,ChartBars.Open,ChartBars.Close,ChartBars.Volume')
       .then(response => {
-        let dataY = [];
-        console.log(this.state.firstResponse + 'firstResponse')
+        let dataResponse = [];
         response.data.map((item) => {
-          dataY.push({
+          dataResponse.push({
             x: item["Date"],
             y: [item["Open"], item["High"], item["Low"], item["Close"]]
           })
         })
-        this.setState({ series: [{ data: dataY }], firstResponse: true });
+        this.setState({ series: [{ data: dataResponse }], firstResponse: true });
       })
       .catch(error => {
         this.setState({ error: true })
