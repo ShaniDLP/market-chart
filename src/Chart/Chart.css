@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic&family=Montserrat:wght@300&display=swap');
+*{
+    font-family: 'Antic', sans-serif !important;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 100 !important;
+}
+.background{
+    background: url('../images/1.jpg');
+    background-size: cover;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+    z-index: -1;
+}
+h1{
+    color: lightyellow;
+    font-size: 72px;
+    letter-spacing: 1;
+}
+button{
+    border:none;
+    margin: 5px;
+    background-color: rgb(68, 68, 68);
+    color: rgb(252, 252, 252);
+    border-radius: 4px;
+    cursor: pointer;
+    letter-spacing: 1;
+    transition: all 2.0s;
+    -webkit-transition:all 2.0s;
+    -moz-transition: all 2.0s;
+    outline: none;
+}
+button:hover{
+    background-color: rgb(75, 147, 182);
+    color: ivory;
+}
+button:active{
+    background-color: rgb(75, 147, 182);
+    color: ivory;
+}
+
+
+.main{
+    max-width: 1000px;
+    margin: 100px auto;
+    /* padding-top: 200px; */
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+    border-radius: 6px;
+}
