@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import axios from "axios";
 import ReactApexChart from 'react-apexcharts';
+import Buttons from './Buttons';
 import './Chart.css';
-
-
 
 class Chart extends Component {
   constructor(props) {
@@ -78,8 +77,8 @@ class Chart extends Component {
         console.log(this.state.firstResponse + 'firstResponse')
         response.data.map((item) => {
           dataY.push({
-          x: item["Date"],
-          y: [item["Open"], item["High"], item["Low"], item["Close"]]
+            x: item["Date"],
+            y: [item["Open"], item["High"], item["Low"], item["Close"]]
           })
         })
         this.setState({ series: [{ data: dataY }], firstResponse: true });
@@ -96,13 +95,11 @@ class Chart extends Component {
       <div className="background">
         <h1>Market Chart</h1>
         <div className="main">
-          <button onClick={() => this.getData(1)}>1 Min</button>
-          <button onClick={() => this.getData(5)} >5 Min</button>
-          <button onClick={() => this.getData(60)}>1 Hour</button>
-          <button onClick={() => this.getData(10080)}>1 Week</button>
-          <div id="chart">
-            <ReactApexChart options={this.state.options} series={this.state.series} type="candlestick" height={350} />
-          </div>
+        <Buttons onClick={(e) => this.getData(e)} />
+
+        <div id="chart">
+          <ReactApexChart options={this.state.options} series={this.state.series} type="candlestick" height={350} />
+        </div>
         </div>
       </div>
 

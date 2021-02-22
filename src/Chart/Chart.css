@@ -42,6 +42,10 @@ button:active{
     background-color: rgb(75, 147, 182);
     color: ivory;
 }
+button:focus {
+    background-color: rgb(75, 147, 182);
+    color: ivory;
+}
 .main{
     max-width: 1000px;
     margin: 100px auto;
