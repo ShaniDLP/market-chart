@@ -1,4 +1,4 @@
-![4JPG](https://user-images.githubusercontent.com/42889059/108733677-66022600-7537-11eb-859c-52359e7345c9.JPG)
+
 ![‏‏1](https://user-images.githubusercontent.com/42889059/108733681-67335300-7537-11eb-890f-8bca49984b09.JPG)
 ![‏‏2](https://user-images.githubusercontent.com/42889059/108733684-67335300-7537-11eb-9b84-46d846f085f1.JPG)
 ![‏‏3](https://user-images.githubusercontent.com/42889059/108733687-67cbe980-7537-11eb-95de-c2050ae3002c.JPG)
