@@ -94,7 +94,7 @@ class Chart extends Component {
       <div className="background">
         <h1>Market Chart</h1>
         <div className="main">
-        <Buttons onClick={(e) => this.getData(e)} />
+        <Buttons onClick={(num) => this.getData(num)} />
 
         <div id="chart">
           <ReactApexChart options={this.state.options} series={this.state.series} type="candlestick" height={350} />
