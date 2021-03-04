@@ -3,6 +3,7 @@ import axios from "axios";
 import ReactApexChart from 'react-apexcharts';
 import Buttons from './Buttons';
 import './Chart.css';
+import ExternalLinks from '../ExternalLinks/ExternalLinks';
 
 class Chart extends Component {
   constructor(props) {
@@ -99,6 +100,7 @@ class Chart extends Component {
           <ReactApexChart options={this.state.options} series={this.state.series} type="candlestick" height={350} />
           </div>
         </div>
+      <ExternalLinks/>
       </div>
 
     )
