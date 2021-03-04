@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/market-chart/static/css/main.ff3a2673.chunk.css",
-    "main.js": "/market-chart/static/js/main.e97d0d77.chunk.js",
-    "main.js.map": "/market-chart/static/js/main.e97d0d77.chunk.js.map",
-    "runtime-main.js": "/market-chart/static/js/runtime-main.de6b1dba.js",
-    "runtime-main.js.map": "/market-chart/static/js/runtime-main.de6b1dba.js.map",
-    "static/js/2.639cc909.chunk.js": "/market-chart/static/js/2.639cc909.chunk.js",
-    "static/js/2.639cc909.chunk.js.map": "/market-chart/static/js/2.639cc909.chunk.js.map",
-    "static/js/3.23682c07.chunk.js": "/market-chart/static/js/3.23682c07.chunk.js",
-    "static/js/3.23682c07.chunk.js.map": "/market-chart/static/js/3.23682c07.chunk.js.map",
+    "main.css": "/market-chart/static/css/main.b4957562.chunk.css",
+    "main.js": "/market-chart/static/js/main.99066510.chunk.js",
+    "main.js.map": "/market-chart/static/js/main.99066510.chunk.js.map",
+    "runtime-main.js": "/market-chart/static/js/runtime-main.28449aa3.js",
+    "runtime-main.js.map": "/market-chart/static/js/runtime-main.28449aa3.js.map",
+    "static/js/2.12756232.chunk.js": "/market-chart/static/js/2.12756232.chunk.js",
+    "static/js/2.12756232.chunk.js.map": "/market-chart/static/js/2.12756232.chunk.js.map",
+    "static/js/3.4a489368.chunk.js": "/market-chart/static/js/3.4a489368.chunk.js",
+    "static/js/3.4a489368.chunk.js.map": "/market-chart/static/js/3.4a489368.chunk.js.map",
     "index.html": "/market-chart/index.html",
-    "static/css/main.ff3a2673.chunk.css.map": "/market-chart/static/css/main.ff3a2673.chunk.css.map",
-    "static/js/2.639cc909.chunk.js.LICENSE.txt": "/market-chart/static/js/2.639cc909.chunk.js.LICENSE.txt",
+    "static/css/main.b4957562.chunk.css.map": "/market-chart/static/css/main.b4957562.chunk.css.map",
+    "static/js/2.12756232.chunk.js.LICENSE.txt": "/market-chart/static/js/2.12756232.chunk.js.LICENSE.txt",
     "static/media/Chart.css": "/market-chart/static/media/1.5dbc808a.jpg",
     "static/media/logo.6ce24c58.svg": "/market-chart/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.de6b1dba.js",
-    "static/js/2.639cc909.chunk.js",
-    "static/css/main.ff3a2673.chunk.css",
-    "static/js/main.e97d0d77.chunk.js"
+    "static/js/runtime-main.28449aa3.js",
+    "static/js/2.12756232.chunk.js",
+    "static/css/main.b4957562.chunk.css",
+    "static/js/main.99066510.chunk.js"
   ]
 }
